@@ -9,7 +9,7 @@ while row_index < src.count do
   element_index = 0
   while element_index < src[row_index] do
     if src[row_index][element_index].class == String
-      new_string += src[row_index][element_index] + ' '
+      new_string += src[row_index][element_index] + " "
     end
     row_index += 1
   end
