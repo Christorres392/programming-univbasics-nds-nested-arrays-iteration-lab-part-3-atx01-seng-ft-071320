@@ -11,9 +11,9 @@ while row_index < src.count do
     if src[row_index][element_index].class == String
       new_string += src[row_index][element_index] + " "
     end
-    row_index += 1
+    element_index += 1
   end
-  element_index += 1
+  row_index += 1
 end
 new_string
 end
